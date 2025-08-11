@@ -1,0 +1,144 @@
+{
+  "title": "USG Club Funding Request – 2025",
+  "description": "This form is for Brooklyn College clubs requesting funding from the Undergraduate Student Government (USG) for the 2025 academic year.\nFunding is split into three categories:\n1. Base Fund – $600 automatic allocation for each active club.\n2. Event Fund – $500–$5,000 for events/projects.\n3. Reserve Fund – For urgent or unexpected needs.\n\nComplete all required fields. Event and Reserve fund applicants must provide detailed budget and event info.",
+  "questions": [
+    {
+      "type": "SHORT_ANSWER",
+      "title": "Club Name",
+      "required": true
+    },
+    {
+      "type": "SHORT_ANSWER",
+      "title": "Club President",
+      "required": true
+    },
+    {
+      "type": "SHORT_ANSWER",
+      "title": "President Email",
+      "required": true
+    },
+    {
+      "type": "SHORT_ANSWER",
+      "title": "Treasurer Name",
+      "required": true
+    },
+    {
+      "type": "SHORT_ANSWER",
+      "title": "Treasurer Email",
+      "required": true
+    },
+    {
+      "type": "MULTIPLE_CHOICE",
+      "title": "Type of Funding Request",
+      "required": true,
+      "choices": [
+        "Base Fund – $600 automatic allocation",
+        "Event Fund – $500–$5,000 for events/projects",
+        "Reserve Fund – urgent needs or unexpected costs"
+      ]
+    },
+    {
+      "type": "SECTION",
+      "title": "Event/Project Details",
+      "description": "Please complete this section only if you selected Event Fund or Reserve Fund above."
+    },
+    {
+      "type": "SHORT_ANSWER",
+      "title": "Event/Project Name",
+      "required": true,
+      "section": "Event/Project Details"
+    },
+    {
+      "type": "DATE",
+      "title": "Date(s)",
+      "required": true,
+      "section": "Event/Project Details"
+    },
+    {
+      "type": "NUMBER",
+      "title": "Expected Attendance",
+      "required": true,
+      "section": "Event/Project Details"
+    },
+    {
+      "type": "SHORT_ANSWER",
+      "title": "Target Audience",
+      "required": true,
+      "section": "Event/Project Details"
+    },
+    {
+      "type": "PARAGRAPH",
+      "title": "Event Description",
+      "required": true,
+      "section": "Event/Project Details"
+    },
+    {
+      "type": "PARAGRAPH",
+      "title": "Budget Breakdown (List each item, cost/unit, quantity, total cost)",
+      "required": true,
+      "section": "Event/Project Details"
+    },
+    {
+      "type": "SHORT_ANSWER",
+      "title": "Total Funding Requested",
+      "required": true,
+      "section": "Event/Project Details"
+    },
+    {
+      "type": "SECTION",
+      "title": "Impact & Scoring (Event Fund Only)",
+      "description": "Answer these questions if you selected Event Fund."
+    },
+    {
+      "type": "PARAGRAPH",
+      "title": "1. How many students will benefit?",
+      "required": true,
+      "section": "Impact & Scoring (Event Fund Only)"
+    },
+    {
+      "type": "PARAGRAPH",
+      "title": "2. How does this align with your club’s mission?",
+      "required": true,
+      "section": "Impact & Scoring (Event Fund Only)"
+    },
+    {
+      "type": "PARAGRAPH",
+      "title": "3. Is this event different from others on campus?",
+      "required": true,
+      "section": "Impact & Scoring (Event Fund Only)"
+    },
+    {
+      "type": "PARAGRAPH",
+      "title": "4. Have you used past USG funds responsibly?",
+      "required": true,
+      "section": "Impact & Scoring (Event Fund Only)"
+    },
+    {
+      "type": "PARAGRAPH",
+      "title": "5. Why is this event realistic and achievable?",
+      "required": true,
+      "section": "Impact & Scoring (Event Fund Only)"
+    },
+    {
+      "type": "FILE_UPLOAD",
+      "title": "Attachments (Upload quotes, vendor estimates, flyers)",
+      "required": false,
+      "section": "Event/Project Details"
+    },
+    {
+      "type": "CHECKBOXES",
+      "title": "Acknowledgment",
+      "required": true,
+      "choices": [
+        "I will submit receipts for all funded expenses.",
+        "I will submit a post-event summary to USG.",
+        "I understand unused funds must be returned to USG."
+      ]
+    },
+    {
+      "type": "SHORT_ANSWER",
+      "title": "Type your full name as electronic signature",
+      "required": true
+    }
+  ]
+}
